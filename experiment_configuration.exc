@@ -1,0 +1,21 @@
+<ExD 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig" xsi:schemaLocation="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig ../ExDConfFile.xsd">
+  <name>Hanoi Tower Kuka</name>
+  <thumbnail>tower_of_hanoi_kuka_robot_frontend_pic.png</thumbnail>
+  <description>Kuka Robot Hanoi Tower Experiment with Avatar Humanoid model</description>
+  <tags>hanoi tower avatar model</tags>
+  <timeout>86400</timeout>
+  <configuration type="3d-settings" src="avatar_hanoi_tower.ini" />
+  <configuration type="brainvisualizer" src="brainvisualizer.json" />
+  <configuration type="user-interaction-settings" src="avatar_hanoi_tower.uis" />
+  <maturity>production</maturity>
+  <environmentModel src="virtual_room.sdf" />
+  <bibiConf src="bibi_configuration.bibi" />
+  <cameraPose>
+    <cameraPosition x="1.8384600722731907" y="-1.6578606691120366" z="1.4069850686414418" />
+    <cameraLookAt x="0" y="0" z="0.5" />
+  </cameraPose>
+  <rosLaunch src="robot_description.launch" />
+  <cloneDate>2021-05-21T21:05:49</cloneDate>
+</ExD>
